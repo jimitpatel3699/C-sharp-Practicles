@@ -5,15 +5,17 @@ VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Practicle1", "Practicle1\Practicle1.csproj", "{890C3FD0-301C-47AF-9979-77871ADC6DED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "practicle2", "practicle2\practicle2.csproj", "{AA2F5515-920B-4D9C-BA86-8D1D9AF3FC24}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "practicle2", "practicle2\practicle2.csproj", "{AA2F5515-920B-4D9C-BA86-8D1D9AF3FC24}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "practicle3", "practicle3\practicle3.csproj", "{2AC734FB-BBB6-4507-989F-2EDF42C26BDF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "practicle3", "practicle3\practicle3.csproj", "{2AC734FB-BBB6-4507-989F-2EDF42C26BDF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practicle4", "Practicle4\Practicle4.csproj", "{FC32D04A-2592-4A15-94B5-34B6D81BA441}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Practicle4", "Practicle4\Practicle4.csproj", "{FC32D04A-2592-4A15-94B5-34B6D81BA441}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practicle5", "Practicle5\Practicle5.csproj", "{07A1279C-3046-45E0-8C5B-8041133DC073}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Practicle5", "Practicle5\Practicle5.csproj", "{07A1279C-3046-45E0-8C5B-8041133DC073}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practicle6", "Practicle6\Practicle6.csproj", "{EAE635B4-B458-4A29-99BE-773AE5DD46EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Practicle6", "Practicle6\Practicle6.csproj", "{EAE635B4-B458-4A29-99BE-773AE5DD46EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practicle7", "Practicle7\Practicle7.csproj", "{FC8423F6-277B-4086-A904-5F965BE6E7A5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{EAE635B4-B458-4A29-99BE-773AE5DD46EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EAE635B4-B458-4A29-99BE-773AE5DD46EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EAE635B4-B458-4A29-99BE-773AE5DD46EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC8423F6-277B-4086-A904-5F965BE6E7A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC8423F6-277B-4086-A904-5F965BE6E7A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC8423F6-277B-4086-A904-5F965BE6E7A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC8423F6-277B-4086-A904-5F965BE6E7A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
