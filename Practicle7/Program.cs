@@ -80,14 +80,54 @@
                         }
                     case options.LSP:
                         {
+                            
+                            IFood food = new Pitza();
+                            Console.WriteLine("\n-------------------------------------------------------------------------");
+                            Console.WriteLine("IFood food = new pitza();");
+                            Console.WriteLine($"pitza class ingredients method food.Food_ing();:-> {food.Food_ing()}");
+                            Console.WriteLine($"pitza class origin method food.Food_origin();:->{food.Food_origin()}");
+                            Console.WriteLine($"pitza class food type method food.Food_type();:->{food.Food_type()}");
+                            
+                            
+                            food = new PavBhaji();
+                            Console.WriteLine("-------------------------------------------------------------------------");
+                            Console.WriteLine($"\nfood = new PavBhaji(); ");
+                            Console.WriteLine($"PavBhaji class ingredients method food.Food_ing();:-> {food.Food_ing()}");
+                            Console.WriteLine($"PavBhaji class origin method food.Food_origin();:->{food.Food_origin()}");
+                            Console.WriteLine($"PavBhaji class food type method food.Food_type();:->{food.Food_type()}");
+                            
+                            
+                            food = new PaniPuri();
+                            Console.WriteLine("-------------------------------------------------------------------------");
+                            Console.WriteLine($"\nfood = new panipuri(); ");
+                            Console.WriteLine($"PaniPuri class ingredients method food.Food_ing();:-> {food.Food_ing()}");
+                            Console.WriteLine($"PaniPuri class origin method food.Food_origin();:->{food.Food_origin()}");
+                            Console.WriteLine($"PaniPuri class food type method food.Food_type();:->{food.Food_type()}");
                             break;
                         }
                     case options.ISP:
                         {
+                            //Using HPLaserJetPrinter we can access all Printer Services
+                            Console.WriteLine("\n-------------------------------------------------------------------------");
+                            Console.WriteLine("HPLaserJetPrinter implemets all interfaces.");
+                            HPLaserJetPrinter hPLaserJetPrinter = new HPLaserJetPrinter();
+                            hPLaserJetPrinter.Print("Printing");
+                            hPLaserJetPrinter.Scan("Scanning");
+                            hPLaserJetPrinter.Fax("Faxing");
+                            hPLaserJetPrinter.PrintDuplex("PrintDuplex");
+                            //Using LiquidInkjetPrinter we can only Access Print and Scan Printer Services
+                            Console.WriteLine("\n-------------------------------------------------------------------------");
+                            Console.WriteLine("LiquidInkjetPrinter implements only Access Print and Scan Printer interface.");
+                            LiquidInkjetPrinter liquidInkjetPrinter = new LiquidInkjetPrinter();
+                            liquidInkjetPrinter.Print("Printing");
+                            liquidInkjetPrinter.Scan("Scanning");
                             break;
                         }
                     case options.DIP:
                         {
+                            
+                            Student std1 = new Student(RepositoryFactory.GetStudentRepository());
+                            std1.Save();
                             break;
                         }
                 }
